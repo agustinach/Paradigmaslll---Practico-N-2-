@@ -31,7 +31,10 @@ public class Main {
         spiderman.setAnioEstreno(1994);
         spiderman.setCategoria(categoria);
         
-        System.out.println(spiderman);
+        System.out.println(spiderman.getNombre());
+        System.out.println(spiderman.getAnioEstreno());
+        System.out.println(categoria.getNombre());
+        
         System.out.println("Programa terminado!");
         
     }
